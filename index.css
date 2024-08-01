@@ -4,99 +4,46 @@
     box-sizing: border-box;
 }
 
-body {
-    background-image: url(./bg.jpeg);
+.card-container {}
 
-}
-
-nav {
-    /* border: 1px solid red; */
-    text-align: right;
-    margin-top: 20px;
-    font-size: 1.5rem;
-}
-
-nav ul {
-    margin-right: 50px;
-}
-
-nav a {
-    text-decoration: none;
-    color: white;
-}
-
-.body {
-    /* border: 1px solid red; */
+.card {
+    border: 1px dashed red;
+    border: 1px solid gray;
+    width: 200px;
+    height: 250px;
+    margin: 50px 0 0 100px;
     text-align: center;
-    padding: 100px;
-    /* margin-bottom: 180px; */
-    color: white;
+
 }
 
-h1 {
-    text-transform: uppercase;
-    font-size: 48px;
-}
-
-.body>p {
-    margin: 10px;
-    letter-spacing: 5px;
-}
-
-.container {
-    /* border: 1px solid red; */
-    padding: 0 20%;
-    text-align: left;
-}
-
-.progress-bar {
+img {
     width: 100%;
-    background-color: white;
+    border-bottom: 1px solid gray;
+    padding: 5px 0;
 }
 
-.bar {
-    width: 70%;
-    height: 10px;
-    background-color: aqua;
+h4 {
+    padding-top: 5px;
 }
 
-.container div:last-child {
-    /* border: 1px solid red; */
-    display: flex;
-    justify-content: space-between;
-}
-
-button {
-    margin: 30px;
-    padding: 8px 15px;
-    border: 1px;
-    background-color: aqua;
-}
-
-button:hover {
+.card::after {
+    content: 'X';
+    color: gra;
+    border-radius: 50%;
+    padding: 5px 10px;
+    position: absolute;
+    top: 55px;
+    left: 100px;
     cursor: pointer;
 }
 
-.icon i {
-    border: 2px solid;
-    font-size: 20px;
+.card-container::after {
+    content: '9';
+    background: red;
+    color: white;
     border-radius: 50%;
-    padding: 10px;
-    margin: 0 5px;
-}
-
-footer {
-    /* border: 1px solid red; */
-    display: flex;
-    flex-flow: column;
-    align-items: center;
-}
-
-hr {
-    width: 80%;
-    margin: 10px;
-}
-
-footer p {
-    color: rgb(71, 67, 67);
+    padding: 5px 10px;
+    position: absolute;
+    top: 39px;
+    left: 284px;
 }
