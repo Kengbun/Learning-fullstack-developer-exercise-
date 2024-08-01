@@ -1,2 +1,1 @@
-# Learning_fullstack_developer-exercise-
-สวัสดีครับ 
+สร้าง landing page ของ Tinder Nanme:Nantachai Namwong(keng)

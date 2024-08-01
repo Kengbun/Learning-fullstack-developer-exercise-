@@ -1,0 +1,90 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.541), rgba(0, 0, 0, 0.541)), url(./bg.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    /* border: 1px solid red; */
+}
+
+.header {
+    width: 100%;
+    height: auto;
+    /* border: 1px dashed rgb(245, 233, 233); */
+}
+
+.header,
+ul,
+a,
+.logo {
+    list-style: none;
+    text-decoration: none;
+    color: white;
+    display: flex;
+    padding: 10px;
+}
+
+.logo img {
+    width: 50px;
+}
+
+.logo p {
+    font-size: 3rem;
+}
+
+nav {
+    padding-top: 10px;
+}
+
+.login {
+    position: relative;
+    left: 20%;
+    font-size: 1.5rem;
+    padding-top: 15px;
+}
+
+button {
+    font-weight: bold;
+    font-size: 1.5rem;
+    margin-left: 20px;
+    padding: 5px 10px;
+    border-radius: 50px;
+    border: none;
+    /* border: 1px solid; */
+}
+
+main {
+    /* border: 1px dashed white; */
+    text-align: center;
+    padding: 10%;
+}
+
+main p {
+    font-weight: bold;
+    color: white;
+    font-size: 7rem;
+}
+
+main button {
+    color: white;
+    background-image: linear-gradient(to bottom left, rgb(240, 80, 6), rgb(235, 55, 160));
+    /* border: 1px dashed white; */
+}
+
+footer p {
+    color: white;
+    text-align: right;
+    padding-right: 20px;
+    margin-top: 50px;
+}
+
+.logo,
+.login,
+.bt:hover {
+    cursor: pointer;
+}
