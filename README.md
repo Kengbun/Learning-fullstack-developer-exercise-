@@ -1,2 +1,10 @@
-# Learning_fullstack_developer-exercise-
-สวัสดีครับ 
+Lab6 DataTypes&Variable: ตัวแปรชื่อตัวพิมพ์ใหญ่
+ประกาศตัวแปรชื่อ BRAND_NAME ให้ค่าเป็น ‘I am a hero’
+สามารถประกาศชื่อตัวแปรชื่อตัวพิมพ์ใหญ่ทั้งหมดได้หรือไม่ ถ้าได้นิยมใช้ในกรณีอะไร
+
+let BRAND_NAME = 'I am a hero'
+ได้ นิยมใช้ในกรณี ที่ตัวแปร มีค่าคงที่ 
+
+
+
+Name = Nantachai Namwong(keng)
