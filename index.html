@@ -11,9 +11,9 @@
         let b = 2;
         let c = a++;
 
-        let d = string(a);
-        let e = string(b);
-        let f = string(c);
+        let d = String(a);
+        let e = String(b);
+        let f = String(c);
 
         console.log(d);        // d=NaN เพราะ คำสั่ง a++  a ไม่ใช่ตัวเลขเลย ขึ้น NaN
         console.log(e);        // e=2 เพราะ console.log ตัด "" ออก แต่ค่าของ e คือ "2"
