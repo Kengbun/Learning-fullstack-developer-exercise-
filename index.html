@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        let a = undefined;
+        let b = 2;
+        let c = a++;
+
+        let d = string(a);
+        let e = string(b);
+        let f = string(c);
+
+        console.log(d);        // d=NaN เพราะ คำสั่ง a++  a ไม่ใช่ตัวเลขเลย ขึ้น NaN
+        console.log(e);        // e=2 เพราะ console.log ตัด "" ออก แต่ค่าของ e คือ "2"
+        console.log(f);        // f="undefined" เพราะ f รับค่าจาก c และเปลี่ยเป็นstr ซึ่ง c รับค่าจาก a++ เเต่จะรับค่า a ก่อนที่ a จะบวกเพิ่ม ซึ่งค่าก่อนที่จะบวก คือ  undefined 
+        
+
+    </script>
+</body>
+</html>
