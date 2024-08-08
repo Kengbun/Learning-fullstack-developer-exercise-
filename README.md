@@ -1,5 +1,11 @@
-# js-lab-21
-### Lab21 Conditiona: Fundamental2
-- จงเขียนโค้ดเพื่อรับ input เข้ามา โดยให้ถามว่า “Guess my name”
-- หาก input ที่รับเข้ามาตรงกับชื่อตัวเองให้โชว์ข้อความว่าถูกต้อง
-- หาก input ที่รับเข้ามาไม่ตรงกับชื่อตัวเองให้โชว์ข้อความว่าผิด
+ 
+# ja-lab-20
+### Lab20 Conditiona: Guess Result2
+โค้ดด้านล่างทำงานได้หรือไม่ ถ้าทำได้จะ alert คำว่าอะไร
+
+```JavaScript
+if (' ') alert('Yes');
+else alert('Nooo');
+
+//ทำงานได้ alert Yes
+```
