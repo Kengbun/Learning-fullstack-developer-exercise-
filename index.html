@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        let n1 = prompt('In put number');
+        let n2 = prompt('In put number');
+        let n3 = prompt('In put number');
+
+        n1 = Number(n1);
+        n2 = Number(n2);
+        n3 = Number(n3);
+
+        if(isNaN(n1) || isNaN(n2) || isNaN(n3)) {
+            alert("Input number only")
+        }else{
+            let l   //max
+            let m   //mid 
+            let s   //min
+
+            if(n1 >= n2 && n1 >= n3){
+                l = n1
+                if (n2 >= n3) {
+                    m = n2;
+                    s = n3;
+                } else {
+                    m = n3;
+                    s = n2;
+                }
+            } else if (n2 >= n1 && n2 >= n3) {
+                l = n2;
+                if (n1 >= n3) {
+                    m = n1;
+                    s = n3;
+                } else {
+                    m = n3;
+                    s = n1;
+                }
+            } else {
+                l = n3;
+                if (n1 >= n2) {
+                    m = n1;
+                    s = n2;
+                } else {
+                    m = n2;
+                    s = n1;
+                }
+            }
+            alert(l + ',' + m + ',' + s )
+        }
+
+    </script>
+</body>
+</html>
