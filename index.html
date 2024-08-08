@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        let num = prompt('In put number');
+        num = Number(num);
+
+        if(!isNaN(num)){
+            if(num > 0){
+                alert('Positive number')
+            }else if (num === 0){
+                alert('Zero')
+            }else {
+                alert('Negative number')
+            }
+        }else {
+            alert('Invalid number')
+        }
+    </script>
+</body>
+</html>
