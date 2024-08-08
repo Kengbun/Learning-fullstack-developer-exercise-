@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+      let username = prompt('Username');
+      let password = prompt('Password');
+      
+      (username === "") && alert("username is required");
+      (password === "") && alert("password is required");
+
+      if((username === "admin" && password === "1234" ) || (username === "john" && password ==="qwert")) {
+          alert('Hello'+','+ username)
+        }else{
+            alert('invalid username or password')
+      }
+
+   
+      
+      
+    
+    
+      
+    </script>
+</body>
+</html>
