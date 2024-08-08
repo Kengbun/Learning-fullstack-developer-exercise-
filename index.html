@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        let chooes = prompt("Input zone ภาษาอังกฤษไม่เกิน 2 ตัว เท่านั้น ")
+
+        let zoney = [ "a","aa", "AA", "A"]
+        let zoneg = "BB"
+        let zoner = ["sb", "sc", "sd", "se", "sf", "sg", "sh", "si", "sj", "sk", "sl", "sm", "sn","SB", "SC", "SD", "SE", "SF", "SG", "SH", "SI", "SJ", "SK", "SL", "SM", "SN"]
+        let zoneb = ["b", "c", "d", "e", "f", "g", "h", "i", "j", "k", "l", "m", "n", "o", "p", "q", "r", "s", "t",
+                "B", "C", "D", "E", "F", "G", "H", "I", "J", "K", "L", "M", "N", "O", "P", "Q", "R", "S", "T"]
+
+
+
+        if(chooes.length <= 2 && /^[a-zA-Z]+$/.test(chooes)){
+            if(zoney.includes(chooes)){
+                let price = 6500
+                alert('ราคาบัตร'+''+ price +'฿')
+                // alert(typeof(price))
+                
+            }else if (zoneg.includes(chooes)){
+                let price = 5000
+                alert('ราคาบัตร'+''+ price +'฿')
+                
+            }else if(zoner.includes(chooes)){
+                let price = 5500
+                alert('ราคาบัตร'+''+ price +'฿')
+
+            }else if(zoneb.includes(chooes)){
+                let price = 4000
+                alert('ราคาบัตร'+''+ price +'฿')
+
+            }else {
+                alert('ไม่มีโซนที่คุณเลือก')
+            }    
+        
+        }else {
+            alert('กรอกใหม่')
+        }
+
+
+    </script>
+</body>
+</html>
