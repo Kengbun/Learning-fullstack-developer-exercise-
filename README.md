@@ -1,2 +1,11 @@
 # Learning_fullstack_developer-exercise-
 สวัสดีครับ 
+# js-lab-40
+### Lab40 Loop: Lab1
+เลขที่ถูก alert เป็นลำดับสุดท้ายคือเลขอะไร ///เลข 1 
+```Javascript
+let i = 3;
+while (i) {
+  alert( i-- );
+}
+```
