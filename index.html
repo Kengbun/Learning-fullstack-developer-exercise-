@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        
+        let secretNum = prompt("ใส่เลข");
+
+        if (secretNum < 1 || secretNum > 100 || isNaN(secretNum)) {
+            alert("เลข 1 - 100 เท่านั้น");
+        }else {
+            let guess = prompt("ทายเลข");
+
+            while (guess !== secretNum){
+                if (guess > secretNum){
+                    alert("น้อยกว่านี้");
+                }else if(guess < secretNum){
+                    alert("มากกว่านี้");
+                }
+                
+                guess = prompt("ลองอีกครั้ง");
+            }
+
+            alert("ทายถูกแล้ว ตัวเลขคือ " + secretNum);  
+        }
+
+    </script>
+</body>
+</html>
