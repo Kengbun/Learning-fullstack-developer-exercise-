@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        let productName = prompt("Product Name");
+        let totalSell = +prompt("Total Sell ");
+        let price = +prompt("Price");
+        let discount = +prompt("Discount");
+        
+        let netPrice = (price, discount) => price - discount;
+        
+        let obj ={
+            productName,
+            totalSell,
+            price,
+        };
+        
+        (discount !== 0 && discount !== "")? obj["discount"] = discount : null;
+        obj["netPrice"] = ("discount" in obj) ? netPrice(price, discount) : price;
+
+        
+        
+
+        console.log(obj)
+         
+
+
+        
+
+
+    </script>
+</body>
+</html>
