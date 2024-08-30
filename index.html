@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        const state1 = { username: 'john', point: 100, loading: true };
+        
+        let state2 = {};
+
+        for(key in state1){
+            state2[key] = state1[key];
+        };
+
+        state2.loading = false;
+        state2.point = 75;
+        state2.success = true;
+        console.log(state1 === state2);
+        console.log(state2);
+
+
+
+    </script>
+</body>
+</html>
