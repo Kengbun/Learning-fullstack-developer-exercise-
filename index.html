@@ -7,22 +7,27 @@
 </head>
 <body>
     <script>
-        let calculator = {
-                read(){
-                    this.number1 = +prompt("Enter first number");
-                    this.number2 = +prompt("Enter second number");
-                },
-                mul(){
-                  return this.number1 * this.number2;  
-                },
-                sum(){
-                    return this.number1 + this.number2;
-                }
+        function calculator(){
+            this.read = function(){
+                this.number1 = +prompt("Enter first number");
+                this.number2 = +prompt("Enter second number");
             };
+            this.sum = function(){
+                return this.number1 * this.number2;  
+            };
+            this.mul = function(){
+                return this.number1 + this.number2;
+            };
+        };
 
-            calculator.read();
-            alert(calculator.sum());
-            alert(calculator.mul());
+        let Calculator = new calculator;
+
+        console.log(Calculator.read());
+        console.log(Calculator.sum());
+        console.log(Calculator.mul());
+
+
+            
     </script>
 </body>
 </html>
