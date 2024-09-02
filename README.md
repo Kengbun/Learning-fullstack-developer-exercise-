@@ -1,2 +1,2 @@
-# Learning_fullstack_developer-exercise-
-สวัสดีครับ 
+# 	Lab2 Number: การหาค่าของเลข 255			
+	-จงหาค่าของเลข 255 ในระบบเลขฐาน 2 ฐาน 8 และ ฐาน 16			
