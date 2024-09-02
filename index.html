@@ -7,24 +7,22 @@
 </head>
 <body>
     <script>
-        function calculator(){
+        
+        function Accumukator(startingValue){
+            this.currentValue = startingValue;
             this.read = function(){
-                this.number1 = +prompt("Enter first number");
-                this.number2 = +prompt("Enter second number");
+                let input = +prompt("Enter a value to add: ");
+                this.currentValue += input;
             };
-            this.sum = function(){
-                return this.number1 * this.number2;  
-            };
-            this.mul = function(){
-                return this.number1 + this.number2;
+            this.show = function(){
+                alert(this.currentValue);
             };
         };
+        
+        let accumukator = new Accumukator(10);
 
-        let Calculator = new calculator;
-
-        console.log(Calculator.read());
-        console.log(Calculator.sum());
-        console.log(Calculator.mul());
+        accumukator.read();
+        accumukator.show();
 
 
             
