@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+
+        class Calculator {
+            constructor(startValue = 0){
+                this.value = startValue;
+            }
+
+            add(number){
+                this.value += number;
+            }
+
+            subtract(number){
+                this.value -= number;
+            }
+
+            multiply(number){
+                this.value *= number;
+            }
+
+            divide(number){
+                this.value /= number;
+            }
+            show(){
+                alert(this.value);
+            }
+
+        };
+
+        let calculator = new Calculator(+prompt("Enter number"));
+
+
+    </script>
+</body>
+</html>
