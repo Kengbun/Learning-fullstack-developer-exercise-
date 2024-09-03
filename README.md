@@ -1,2 +1,2 @@
-# Learning_fullstack_developer-exercise-
-สวัสดีครับ 
+# 	Lab1 String: การสร้างตัวแปร					
+	- จงสร้างตัวแปรและกำหนดค่าเริ่มต้นให้ตัวแปรมีค่า 'c:\Users\Admin\Desktop'					
