@@ -1,2 +1,5 @@
-# Learning_fullstack_developer-exercise-
-สวัสดีครับ 
+# 	Lab2 String: การหาความยาวของตัวแปร		
+	จงหาความยาวของตัวแปร String ต่อไปนี้		
+	- 'Welcome to Thailand'		
+	- 'Don\'n be afraid\n'		
+	- 'สวัสดีประเทศไทย'		
