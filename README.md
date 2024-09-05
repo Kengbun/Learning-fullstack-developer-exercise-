@@ -1,2 +1,3 @@
-# Learning_fullstack_developer-exercise-
-สวัสดีครับ 
+# Lab6 String: การแปลงค่า string									
+	จงเขียนฟังก์ชัน extractCurrencyValue(string, rate) ในการแปลงค่า string ที่อยู่ในรูปแบบสกุลเงินดอลลาร์ ให้อยู่ในรูปแบบสกุลเงินบาท									
+	- rate คือ อัตราในการแปลงดอลลาร์ให้เป็นบาท									
