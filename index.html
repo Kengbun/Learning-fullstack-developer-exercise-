@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        let message = "keng hsid sex kdliek ; ksdfjaie porn";
+        let str = "this is a nomal text"
+        // let str = prompt("Enter String");
+
+        
+        let ban = ['sex', 'porn','xxx']
+
+        function chackMessages(message){
+            message = message.toLocaleLowerCase();
+            
+            for(i = 0; i< ban.length; i++){
+                if(message.indexOf(ban[i]) !== -1){
+                    return true;
+                };
+            };
+            return false;
+
+        };
+        
+        console.log(`ban text = ${chackMessages(message)}`);
+        console.log(`nomal text = ${chackMessages(str)}`);
+    </script>
+</body>
+</html>
