@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        let name = "keng";
+
+        let b = "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent nec augue eget arcu auctor euismod. Nullam nec nunc at nisi mattis vestibulum. Pellentesque ac vestibulum erat, a elementum mi. Nulla volutpat leo in placerat lobortis. In sapien elit, pulvinar in neque at, hendrerit tristique augue. Etiam pretium vestibulum consequat. Cras mollis risus venenatis metus varius, at maximus orci vehicula. Nam feugiat odio id felis ornare, id scelerisque ligula gravida. Donec vitae libero nec est rhoncus volutpat. Maecenas scelerisque leo vel finibus aliquam. Donec at accumsan ni";
+
+        function truncate(str, length){
+            if(str.length <= length) {
+                return str
+            }else {
+                return str.slice(0, length) + "..."
+            };
+        };
+
+        console.log(truncate(b, 20));
+        console.log(truncate(name, 20));
+
+    
+
+    </script>
+</body>
+</html>
