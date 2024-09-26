@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        const sales = [
+            {price: 1000, discount: 0.1},
+            {price: 500, discount: 0.05},
+            {price: 100, }
+        ];
+
+        let summary = [];
+        sales.forEach (sales => {
+            let discount = sales.discount || 0;
+            let netPrice = sales.price * (1 - discount);
+
+            summary.push({
+                netPrice : netPrice
+            });
+        });
+        console.log(summary)
+
+    </script>
+</body>
+</html>
