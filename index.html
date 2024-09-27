@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+
+
+        function ask(question, yes, no) {
+            if (confirm(question)) yes();
+            else no();
+        };
+        
+        function yes(){
+            return alert("I'm agree with you?")
+        }
+        function no(){
+            return alert("Whyyyyyyy !")
+        }
+        
+        ask("Do you agree?",yes ,no)
+
+    </script>
+</body>
+</html>
