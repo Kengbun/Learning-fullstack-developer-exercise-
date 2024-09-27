@@ -1,2 +1,4 @@
-# Learning_fullstack_developer-exercise-
-สวัสดีครับ 
+# Lab9 Array: การสร้างตัวแปรจากตัวแปร2					
+ให้สร้างตัวแปร Array โดยเอาค่ามาจาก sports ในตำแหน่ง index 1 ถึง 3					
+						
+	const sports = ['football', 'volleyball', 'tennis', 'basketball', 'judo'];					
