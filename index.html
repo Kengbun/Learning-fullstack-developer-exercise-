@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        const person = ['John', 'Jay', 'Jim', 'Jame'];
+        let remove = person.indexOf("Jay");
+
+        if (remove !== -1) {
+            person.splice(remove, 1, "Jack", "Joe");
+        };
+
+        console.log(person)
+    </script>
+</body>
+</html>
