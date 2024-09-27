@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        function checkPermission (role, onadmin, noAmin ) {
+            if (role === "Admin") {
+                onadmin();
+            }else {
+                noAmin();
+            };
+        };
+        function onadmin(){
+            return alert("ACCESS GRANRED");
+        };
+        function noAmin(){
+            return alert(" ACCESS DENIED");
+        };  
+        </script>
+</body>
+</html>
