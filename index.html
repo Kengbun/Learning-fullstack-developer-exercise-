@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        const tasks = [
+            { id: 1, name: 'Fishing' },
+            { id: 2, name: 'Shopping' },
+            { id: 3, name: 'Swimming' }
+        ];	
+        function deleteTask(id){
+            let task = tasks.findIndex(function(task){
+                return task.id === id;
+            });
+            if (task !== -1){
+                tasks.splice(task, 1);
+            };
+        };
+        deleteTask(1);
+        console.log(tasks);
+
+    </script>
+</body>
+</html>
