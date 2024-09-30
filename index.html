@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        const array = [
+                { name: 'apple', birth: '2000-01-01' },
+                { name: 'banana', birth: '1990-10-10' },
+                { name: 'watermelon', birth: '1985-12-30' }
+            ];
+        let result = array.map(function(persons) {
+            let birthDate = new Date(persons.birth);
+            let options = {
+                day:"2-digit",
+                month:"short",
+                year:"numeric"
+            };
+            let date = birthDate.toLocaleDateString("en-de", options);
+            // console.log(date);
+            return `<tr><td>${persons.name}</td><td>${date}</td></tr>`;
+
+        });    
+        console.log(result);
+    </script>
+</body>
+</html>
