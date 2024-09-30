@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        const array = [
+                { name: 'apple', birth: '2000-01-01' },
+                { name: 'banana', birth: '1990-10-01' },
+                { name: 'watermelon', birth: '1985-12-01' }
+            ];
+             
+            let result = array.map(function(persons){
+                let birthDate = new Date(persons.birth);
+                let year = 2021
+                let birthYear = birthDate.getFullYear();
+                let age = year - birthYear;
+                return {
+                    name: persons.name,
+                    birth:persons.birth, 
+                    age : age
+                };
+            }); 
+            
+            console.log(result);
+            
+    </script>
+</body>
+</html>
