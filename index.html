@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        let arr = ['React', 'Vue', 'Angular'];
+
+        function copySorted(arr) {
+            return arr.slice().sort()
+        };
+
+        let sorted = copySorted(arr);
+
+        console.log(sorted); // Angular, React, Vue
+        console.log(arr); // React, Vue, Angular (no changes)		
+
+    </script>
+</body>
+</html>
