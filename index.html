@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        const scores = [
+            { score: 90, subject: 'HTML', weight: 0.2 },
+            { score: 95, subject: 'CSS', weight: 0.3 },
+            { score: 85, subject: 'JavaScript', weight: 0.5 }
+        ];
+
+        function weightedAverage(arr) {
+            let tws = arr.reduce((sum, {score, weight}) => sum + score * weight, 0);
+            let tw = arr.reduce((sum, {weight}) => sum + weight, 0);
+            return tws / tw;
+        };
+
+        console.log(weightedAverage(scores));
+            // expected result: 89"	
+    </script>
+</body>
+</html>
