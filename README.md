@@ -1,2 +1,4 @@
-# Learning_fullstack_developer-exercise-
-สวัสดีครับ 
+# Lab48 Array: ผลคูณของ element		
+	จงหาผลคูณของ element ใน nums		
+			
+	const nums = [-3, 2, 11, -7, 4, 6];		
