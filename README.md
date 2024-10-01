@@ -1,2 +1,4 @@
-# Learning_fullstack_developer-exercise-
-สวัสดีครับ 
+# Lab44 Array: เรียงข้อมูลใน array1		
+จงเรียงข้อมูลใน arr จากมากไปหาน้อย		
+		
+const arr = [11, 17, 23, 13, 7, 19];		
