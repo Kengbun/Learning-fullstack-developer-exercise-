@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        const array1 = ['Elephant', 'Ant', 'Cat', 'Eagle', 'Zebra'];
+            // ค่าที่ขึ้นต้นด้วยตัว E"					
+
+        const array2 = ['APPLE', 'oRanGE', 'PEACH', 'PaPAYA'];
+        // ค่าที่เป็นตัวพิมพ์ใหญ่ทั้งหมด"					
+
+        const array3 = ['Krabi', 'Chonburi', 'Buriram', 'Saraburi','Phrae'];
+        // ค่าที่มีคำว่า buri 
+
+        let result1 = array1.filter((x) => x.charAt(0) === 'E');
+        console.log(result1);
+
+        let result2 = array2.filter((x) => x === x.toUpperCase());
+        console.log(result2);
+
+        let result3 = array3.filter((x) => x.toLowerCase().includes("buri"));
+        console.log(result3);
+
+    </script>
+</body>
+</html>
