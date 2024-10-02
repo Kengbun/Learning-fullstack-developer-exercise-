@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        let str = '31 45 12 67 34 86 23 37 19 41';		
+        let result = str.split("").map(Number).filter((num) => num < 40).reduce((sum, num) => sum + num,0);
+        console.log(result)
+    </script>
+</body>
+</html>
