@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        const products = [
+                { id: 1, name: 'Crystal' },
+                { id: 4, name: 'Namthip' },
+                { id: 5, name: 'Nestle' }
+            ];
+            // { 1: { name: 'Crystal' }, 4: { name: 'Namthip' }, 5: { name: 'Nestle' } };
+        let result = products.reduce((arr, products) => {
+            arr[products.id] = {name : products.name};
+            return arr
+        },{});
+        
+        console.log(result);
+
+    </script>
+</body>
+</html>
