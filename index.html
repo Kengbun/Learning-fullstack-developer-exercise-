@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        function powerIndex3 (arr) {
+            let newArr = [...arr];
+            newArr[3] = Math.pow(newArr[3], 2);
+            return newArr
+        };
+        const array1 = [1, 2, 3, 4, 5];
+    
+        console.log(array1); 
+        console.log(powerIndex3(array1)); 
+    </script>
+</body>
+</html>
