@@ -1,2 +1,4 @@
-# Learning_fullstack_developer-exercise-
-สวัสดีครับ 
+# Lab 3 ES6: ฟังก์ชัน mergeObjects					
+"จงเขียนฟังก์ชัน mergeObjects โดยพารามิเตอร์ของฟังก์ชันสามารถรับ Object ได้ไม่จำกัด 
+และให้ return ค่าเป็น Object ที่เกิดจาก Object ในพารามิเตอร์มา merge กัน 
+(ในกรณีที่ Object ในพารามิเตอร์มี key ซ้ำกันให้ยึดค่าพารามิเตอร์ตัวที่มาก่อนเป็นหลัก)"					
