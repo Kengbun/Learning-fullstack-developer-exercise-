@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        const nums1 = [1, -2, 3, 4];
+        const nums2 = [8, 3, -8, 1];
+        
+        let nums3 = [5, ...nums1, -6, -1, ...nums2];
+        let result = nums3.reduce((acc, num) => acc + num,0); 
+
+        console.log(result);
+    </script>
+</body>
+</html>
