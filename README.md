@@ -1,2 +1,3 @@
-# Learning_fullstack_developer-exercise-
-สวัสดีครับ 
+# Lab 2 ES6: ฟังก์ชัน filterOutOdds					
+"จงเขียนฟังก์ชัน filterOutOdds โดยพารามิเตอร์ของฟังก์ชันสามารถรับตัวเลขได้ไม่จำกัด 
+และให้ return ค่าเป็น array ของเลขที่เป็นเลขคู่"					
