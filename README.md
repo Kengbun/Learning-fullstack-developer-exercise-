@@ -1,2 +1,4 @@
-# Learning_fullstack_developer-exercise-
-สวัสดีครับ 
+# Lab 22 ES6: Object destructuring2				
+ให้ใช้ Object destructuring โดยให้ a เท่ากับ 5 และ b เท่ากับ 10				
+				
+const obj = { prop: 5, prop2: 10 };				
