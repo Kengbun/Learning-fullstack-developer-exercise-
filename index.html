@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        function chackAge({firstName, lastName, age = 12 }) {
+            if(age >= 18 ){
+                return `Hi ${firstName} ${lastName}`
+            }else {
+                return `ไม่มีสิทธิ์เข้าใช้งาน`
+            }
+        };
+        console.log(chackAge({firstName:'keng', lastName:'bun', age: 20 }));
+    </script>
+</body>
+</html>
